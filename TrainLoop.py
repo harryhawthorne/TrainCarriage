@@ -3,6 +3,7 @@
 # Cartesian product of operations
 from itertools import product
 
+# Counter for carriages with no solutions
 count = 0
 
 for num in range(10000):
