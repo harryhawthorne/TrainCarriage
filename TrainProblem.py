@@ -66,8 +66,5 @@ for i in range(len(perms)):
         except ZeroDivisionError:
             pass
 
-    # Clear the list for next operation
-    paras = []
-
 print('Number of Solutions: ' + str(numOfSols))
 print('-----------------')

@@ -6,6 +6,7 @@ from itertools import product
 # Counter for carriages with no solutions
 count = 0
 
+# Loop through every possible train carriage number
 for num in range(10000):
 
     # Prepare string to be 4 digits
@@ -56,9 +57,6 @@ for num in range(10000):
             # Exception to prevent divide by zero from ending program
             except ZeroDivisionError:
                 pass
-
-        # Clear the list for next operation
-        paras = []
 
     # Count all iterations with no solutions equal to 10
     if numOfSols == 0:
