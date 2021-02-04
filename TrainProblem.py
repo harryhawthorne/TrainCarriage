@@ -38,6 +38,7 @@ for i in range(len(perms)):
     paras = []
 
     # Store strings of equations with brackets in a list
+    # https://math.stackexchange.com/questions/2450961/how-many-ways-are-there-to-put-parentheses-between-n-numbers
     paras.append('(' + eqn + ')')
     paras.append('(' + eqn[:3] + ')' + eqn[3:])
     paras.append(eqn[:2] + '(' + eqn[2:5] + ')' + eqn[5:])
