@@ -65,7 +65,4 @@ for num in range(10000):
         count += 1
         print(str(num))
 
-#print('Number of Solutions: ' + str(numOfSols))
-#print('-----------------')
-
 print('Total Unsolvable Carriages: ' + str(count))
