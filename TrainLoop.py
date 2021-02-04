@@ -59,7 +59,7 @@ for num in range(10000):
         # Clear the list for next operation
         paras = []
 
-    #
+    # Count all iterations with no solutions equal to 10
     if numOfSols == 0:
         count += 1
         print(str(num))
