@@ -1,3 +1,5 @@
+# Takes user input and shows possible solutions to carriage problem
+
 # Cartesian product of operations
 from itertools import product
 
