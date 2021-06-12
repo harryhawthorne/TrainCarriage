@@ -9,7 +9,7 @@ while True:
         print('-----------------')
         num = int(input('Input 4 Digit Train Carriage Number:'))
         print('-----------------')
-        if num in range(0,10000):
+        if num in range(0, 10000):
             break
 
     # Exception if user does an incorrect input
@@ -19,9 +19,9 @@ while True:
 # Prepare string to be 4 digits
 if num < 10:
     num_string = '000' + str(num)
-elif num <100:
+elif num < 100:
     num_string = '00' + str(num)
-elif num <1000:
+elif num < 1000:
     num_string = '0' + str(num)
 else:
     num_string = str(num)
@@ -34,7 +34,8 @@ numOfSols = 0
 
 # Loop through all possible arrangements of operations
 for i in range(len(perms)):
-    eqn = num_string[0] + perms[i][0] + num_string[1] + perms[i][1] + num_string[2] + perms[i][2] + num_string[3]
+    eqn = num_string[0] + perms[i][0] + num_string[1] + \
+        perms[i][1] + num_string[2] + perms[i][2] + num_string[3]
 
     # Create an empty list
     paras = []
